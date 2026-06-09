@@ -163,8 +163,8 @@ def extract_table_data(driver, current_date):
 
 def main():
     # Define date range for scraping - 3 months example
-    start_date = datetime(2024, 12, 1)  # January 1, 2023
-    end_date = datetime(2025, 4, 9)   # March 31, 2023
+    start_date = datetime(2026, 1, 1)  # January 1, 2023
+    end_date = datetime(2026, 5, 31)   # March 31, 2023
     
     # Initialize WebDriver
     print("Initializing WebDriver...")
